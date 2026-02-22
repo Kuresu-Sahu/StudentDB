@@ -1,4 +1,4 @@
-const API = "https://studentdb-java.onrender.com";
+const API = "https://studentdb-java.onrender.com/students";
 
 async function fetchStudents() {
     const res = await fetch(API);
@@ -54,3 +54,4 @@ async function deleteStudent(id) {
 
 
 fetchStudents();
+
